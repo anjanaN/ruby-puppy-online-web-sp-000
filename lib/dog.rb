@@ -15,4 +15,10 @@ class Dog
     @@all.each { |item| puts item.name }
   end
 
+  private
+
+  def save
+
+  end
+
 end
