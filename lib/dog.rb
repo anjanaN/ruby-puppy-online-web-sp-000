@@ -15,6 +15,10 @@ class Dog
     @@all.each { |item| puts item.name }
   end
 
+  def self.clear_all
+
+  end
+
   private
 
   def save
